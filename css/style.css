@@ -59,3 +59,13 @@ body{
     margin: 0;
     padding: 19px 0;
 }
+
+/* restaurants */
+.restaurants{ 
+    background-color: #f3f3f3;
+}
+
+/* Footer */
+footer {
+    background-color: rgb(79, 78, 78);
+}

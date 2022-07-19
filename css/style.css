@@ -7,6 +7,9 @@ body{
     margin: 0;
     font-family: "Roboto",sans-serif;
 }
+
+/* Header */
+
 .header {
     font-family: "shrikhand", cursive;
     text-align: center;
@@ -15,4 +18,33 @@ body{
 .header h1 {
     margin: 0;
     padding: 16px 0 8px;
+}
+
+/* Section Local */
+
+.local {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background-color: #c2bfbf61;
+    padding: 20px 16px;
+}
+
+.local_icon{
+    margin-right: 16px;
+}
+
+.local_text{
+    font-weight: bold;
+}
+
+
+/* Reservez */
+.reserved{
+    text-align: center;
+    background-color: #f3f3f3;
+}
+.reserved_title {
+    margin: 0;
+    padding: 19px 0;
 }

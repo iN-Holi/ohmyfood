@@ -103,7 +103,7 @@ body{
     display: flex;
     align-items: center;
     border-radius: 20px;
-    box-shadow: 4px 4px 8px rgb(0 0 0 / 13%); /**  A REVOIR **/
+    box-shadow: 4px 4px 8px rgb(0 0 0 / 13%); 
     background-color: #f3f3f3;
     padding: 24px 36px;
     margin: 16px 0 16px 12px;
@@ -206,3 +206,12 @@ footer {
     margin-right: 10px;
 }
 
+
+/** media queries **/
+
+@media  (min-width:768px) and (max-width: 1024px) {
+
+}
+@media  (min-width:1024px) {
+    
+}

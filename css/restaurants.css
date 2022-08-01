@@ -138,6 +138,58 @@ footer {
 }
 
 
+/** Animation menu **/
+
+.anim{
+  animation: anim-appear .9s both /** cubic-bezier(.84,1.43,.34,.77) **/;
+  
+}
+@keyframes anim-appear {
+    0% {
+      transform: scale(0)
+    }
+    100% {
+      transform: scale(1);
+    }
+  }
+
+.delay-0{
+    animation-delay: .0s;
+  }
+.delay-1{
+    animation-delay: .1s;
+  }
+.delay-2{
+    animation-delay: .2s;
+  }
+.delay-3{
+    animation-delay: .3s;
+  }
+.delay-4{
+    animation-delay: .4s;
+  }
+.delay-5{
+    animation-delay: .5s;
+  }
+.delay-6{
+    animation-delay: .6s;
+  }
+.delay-7{
+    animation-delay: .7s;
+  }
+.delay-8{
+    animation-delay: .8s;
+  }
+  .delay-9{
+    animation-delay: .9s;
+  }
+
+/** Animation check **/
+
+
+
+
+
 /** media queries **/
 
 @media  (min-width:768px) and (max-width: 1024px) {

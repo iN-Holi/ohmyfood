@@ -76,6 +76,8 @@ header {
 
 .price {
     font-weight: bold;
+    display: flex;
+    align-items: flex-end;
 }
 
 /** btn buy **/

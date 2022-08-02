@@ -60,6 +60,14 @@ header {
     font-weight: 400;
 }
 
+.title:after{
+   content: "";
+   width: 42px; 
+   height: 3px;
+   background-color: #99e2d0;
+   display: flex;
+}
+
 .menu-1 {
     padding: 0 12px;
 }
@@ -69,15 +77,9 @@ header {
     padding: 16px;
     display: flex;
     margin: 16px 0;
-    border-radius: 10px;
+    border-radius: 12px;
     box-shadow: 4px 4px 8px rgb(0 0 0 / 13%);
     justify-content: space-between;
-}
-
-.price {
-    font-weight: bold;
-    display: flex;
-    align-items: flex-end;
 }
 
 /** btn buy **/
@@ -140,11 +142,12 @@ footer {
 }
 
 
-/** Animation menu **/
+/** Animation menu **/ /** possible avec transform-origin: bottom 50%;  ?**/
+
 
 .anim{
   animation: anim-appear .9s both /** cubic-bezier(.84,1.43,.34,.77) **/;
-  
+  transform: scale(0);
 }
 @keyframes anim-appear {
     0% {
@@ -188,15 +191,102 @@ footer {
 
 /** Animation check **/
 
+.container-1{
+    overflow: hidden;
+}
 
+.menu-item{
 
-
+ }
+ .price{
+   display: flex;
+   justify-content: flex-end;
+   align-items: flex-end;
+ }
+ .menu-confirmation{
+     background-color: #99e2d0;
+     display: flex;
+     justify-content: center;
+     align-items: center;
+     width: 100px;
+     margin: -16px -118px -16px -676px;
+ }
+ .menu-valid{
+     width: 24px;
+     height: 24px;
+     background-color: #FFFFFF;
+     display: flex;
+     align-items: center;
+     justify-content: center;
+     border-radius: 100%;
+     transform: rotate(180deg);
+ }
+ 
+ .icon-check{
+     color: #99e2d0;
+ }
+@keyframes slidein {
+    0% {
+        left: 0;}
+    100%  {
+        left: 100px;
+    }
+    
+}
 
 /** media queries **/
 
-@media  (min-width:768px) and (max-width: 1024px) {
+@media  (min-width:768px) and (max-width: 1280px) {
 
+.footer-logo{
+    text-align: center;
 }
-@media  (min-width:1024px) {
+.footer-list{
+    display: flex;
+    justify-content: space-around;
+}
+}
+
+
+@media  (min-width:1280px)  {
+    h1{
+        font-size: 40px;
+    }
+    .local ,.local-text ,h2 ,.reserved-text {
+        font-size: 36px;
+    }
+   .reserved-text{
+    font-size: 36px;
+   }
+    .menu-1{
+        width: 33%;
+        display: inline-block;
+    }
+    h3{
+        font: 24px bold;
+    }
+    h4{
+        font-size: 24px;
+    }
+    .order{
+        font-weight: bold;
+        font-size: 28px;
+        width: 300px;
+    }
+    .footer-logo{
+        text-align: center;
+        font-size: 28px;
+    }
+    .footer-list{
+        display: flex;
+        justify-content: space-around;
+        font-size: 24px;
+        font-weight: bold;
+    }
+    .footer-link{
+        font-weight: bold;
+    }
+}
+
+/** coeur **/
     
-}

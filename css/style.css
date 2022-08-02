@@ -207,11 +207,135 @@ footer {
 }
 
 
-/** media queries **/
+/** media queries tablette **/
 
-@media  (min-width:768px) and (max-width: 1024px) {
-
+@media  (min-width:768px) and (max-width: 992px) {
+.local-text{
+    font-size: 20px;
 }
-@media  (min-width:1024px) {
+.reserved-text{
+    font-size: 20px;
+}
+.functioning-steps{
+    display: flex;
+    justify-content: space-between;
+}
+.functioning-step{
+    font-weight: lighter;
+    padding: 16px 24px;
+}
+h2{
+    text-align: center;
+    font-size: 32px;
+}
+.card{
+    width: 48%;
+}
+.cards{
+   display: flex;
+   flex-wrap: wrap;
+   justify-content: space-between;
+}
+.footer-logo{
+    text-align: center;
+}
+.footer-list{
+    display: flex;
+    justify-content: space-around;
+}
+}
+
+/** media queries desktop **/
+
+@media  (min-width:992px) and (max-width: 1280px) {
+.local-text{
+    font-size: 26px;
+}
+.reserved-text{
+    font-size: 24px;
+    margin-bottom: 32px;
+}
+.functioning-steps{
+    display: flex;
+    justify-content: space-around;
+}
+.functioning-step{
+    font-size: 24px;
+    padding: 22px;
+}
+h2{
+    text-align: center;
+    font-size: 42px;
+}
+.card{
+    width: 48%;
+}
+.cards{
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-between;
+}
+.footer-logo{
+    text-align: center;
+    font-size: 24px;
+}
+.footer-list{
+    display: flex;
+    justify-content: space-around;
+}
+}
+@media  (min-width:1280px)  {
+    h1{ 
+        font-size: 56px;
+    }
+    .local-text{
+        font-size: 36px;
+    }
+    .reserved-text{
+        font-size: 28px;
+        margin-bottom: 32px;
+    }
+    .reserved-btn{
+        padding: 20px 56px;
+        font-size: 24px;
+        font-weight: bold;
+    }
+    .functioning-steps{
+        display: flex;
+        justify-content: space-around;
+    }
+    .functioning-step{
+        font-size: 28px;
+        padding: 22px;
+    }
+    h2{
+        text-align: center;
+        font-size: 42px;
+    }
+    .title{
+        margin-bottom: 36px;
+    }
+    .card{
+        width: 48%;
+    }
+    .cards{
+        display: flex;
+        flex-wrap: wrap;
+        justify-content: space-between;
+    }
+    .footer-logo{
+        text-align: center;
+        font-size: 28px;
+    }
+    .footer-list{
+        display: flex;
+        justify-content: space-around;
+        font-size: 24px;
+        font-weight: ;
+    }
+    .footer-link{
+        font-weight: bold;
+    }
+    }
+
     
-}

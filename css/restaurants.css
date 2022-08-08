@@ -88,12 +88,7 @@ header {
 }
 /** btn buy **/
 
-.btn-order {
-    display: flex;
-    text-decoration: none;
-    justify-content: center;
-    padding: 46px;
-}
+
 .order{
     width: 200px;
     padding: 16px;
@@ -103,6 +98,17 @@ header {
     cursor: pointer;
     border: 0;
     background: linear-gradient(355deg,rgba(147, 86, 220, 0.9), rgba(255,121,218,.9));
+}
+
+.btn-order {
+  display: flex;
+  text-decoration: none;
+  justify-content: center;
+  padding: 46px;
+}
+.order:hover{
+  filter: brightness(105%);  
+  box-shadow: 4px 4px 8px rgb(0 0 0 / 43%);
 }
 
 /* Footer */

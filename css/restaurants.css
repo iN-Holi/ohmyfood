@@ -81,11 +81,7 @@ header {
     justify-content: space-between;
 }
 
-.menu-item {
-    overflow: hidden;
-    white-space: nowrap;
-    text-overflow: ellipsis; /** marche pas ?? **/
-}
+
 /** btn buy **/
 
 
@@ -251,8 +247,14 @@ footer {
 
 .menu-item{
     margin: 10px;
+    width: 90%;
+    overflow: hidden;
 }
- 
+.menu-item p, .menu-item h4{
+  overflow: hidden;
+  white-space: nowrap;
+  text-overflow: ellipsis; 
+}
 .icon-check{
     color: #99e2d0;
 }

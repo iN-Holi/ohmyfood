@@ -54,6 +54,10 @@ header {
 }
 
 /** section-1 **/
+.gallery{
+  display: flex;
+  justify-content: space-between;  
+}
 
 .title {
     margin: 20px 0;
@@ -262,7 +266,26 @@ footer {
 
 /** media queries **/
 
+@media  (max-width:768px)  {
+
+  .gallery{
+    flex-direction: column;
+  }
+
+  .footer-logo{
+      text-align: center;
+  }
+  .footer-list{
+      display: flex;
+      justify-content: space-around;
+  }
+}
+
 @media  (min-width:768px) and (max-width: 1024px) {
+
+  .gallery{
+    flex-direction: column;
+  }
 
 .footer-logo{
     text-align: center;

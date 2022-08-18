@@ -166,12 +166,6 @@ body{
     font-weight: bold;
 }
 
-/** hover?
-.functioning_step:hover {
-    background-color: #9256dc75;
-}
-**/
-
 .functioning-icons{
     margin-right: 24px;
     color: #7a7a7a;
@@ -264,43 +258,7 @@ footer {
 }
 
 
-/** media queries tablette **/
 
-@media  (min-width:768px) and (max-width: 992px) {
-.local-text{
-    font-size: 20px;
-}
-.reserved-text{
-    font-size: 20px;
-}
-.functioning-steps{
-    display: flex;
-    justify-content: space-between;
-}
-.functioning-step{
-    font-weight: lighter;
-    padding: 16px 24px;
-}
-h2{
-    text-align: center;
-    font-size: 32px;
-}
-.card{
-    width: 48%;
-}
-.cards{
-   display: flex;
-   flex-wrap: wrap;
-   justify-content: space-between;
-}
-.footer-logo{
-    text-align: center;
-}
-.footer-list{
-    display: flex;
-    justify-content: space-around;
-}
-}
 
 /** coeur **/
 
@@ -399,48 +357,85 @@ padding: 0;
 margin-bottom: 30px;
 }
 
+/** media queries **/
+
+@media  (min-width:768px) and (max-width: 992px) {
+    .local-text{
+        font-size: 20px;
+    }
+    .reserved-text{
+        font-size: 20px;
+    }
+    .functioning-steps{
+        display: flex;
+        justify-content: space-between;
+    }
+    .functioning-step{
+        font-weight: lighter;
+        padding: 16px 24px;
+    }
+    h2{
+        text-align: center;
+        font-size: 32px;
+    }
+    .card{
+        width: 48%;
+    }
+    .cards{
+       display: flex;
+       flex-wrap: wrap;
+       justify-content: space-between;
+    }
+    .footer-logo{
+        text-align: center;
+    }
+    .footer-list{
+        display: flex;
+        justify-content: space-around;
+    }
+    }
 
 
-
-/** media queries desktop **/
 
 @media  (min-width:992px) and (max-width: 1024px) {
-.local-text{
-    font-size: 26px;
-}
-.reserved-text{
-    font-size: 24px;
-    margin-bottom: 32px;
-}
-.functioning-steps{
-    display: flex;
-    justify-content: space-around;
-}
-.functioning-step{
-    font-size: 24px;
-    padding: 22px;
-}
-h2{
-    text-align: center;
-    font-size: 42px;
-}
-.card{
-    width: 48%;
-}
-.cards{
-    display: flex;
-    flex-wrap: wrap;
-    justify-content: space-between;
-}
-.footer-logo{
-    text-align: center;
-    font-size: 24px;
-}
-.footer-list{
-    display: flex;
-    justify-content: space-around;
-}
-}
+    .local-text{
+        font-size: 26px;
+    }
+    .reserved-text{
+        font-size: 24px;
+        margin-bottom: 32px;
+    }
+    .functioning-steps{
+        display: flex;
+        justify-content: space-around;
+    }
+    .functioning-step{
+        font-size: 24px;
+        padding: 22px;
+    }
+    h2{
+        text-align: center;
+        font-size: 42px;
+    }
+    .card{
+        width: 48%;
+    }
+    .cards{
+        display: flex;
+        flex-wrap: wrap;
+        justify-content: space-between;
+    }
+    .footer-logo{
+        text-align: center;
+        font-size: 24px;
+    }
+    .footer-list{
+        display: flex;
+        justify-content: space-around;
+    }
+    }
+
+
 @media  (min-width:1024px)  {
     h1{ 
         font-size: 56px;

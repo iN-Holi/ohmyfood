@@ -156,7 +156,7 @@ footer {
 
 
 .anim{
-  animation: anim-appear .9s both /** cubic-bezier(.84,1.43,.34,.77) **/;
+  animation: anim-appear .9s both;
   transform: scale(0);
 }
 @keyframes anim-appear {
